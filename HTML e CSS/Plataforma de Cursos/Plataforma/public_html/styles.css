@@ -1,0 +1,240 @@
+/* Estilos para o conteúdo principal */
+main {
+    display: flex; /* Utiliza o modelo de layout flexível */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: flex-start; /* Alinha os elementos no início do eixo principal */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+/* Estilos para a seção de cursos em destaque */
+#destaque-cursos {
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Define o raio da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    margin-top: 20px; /* Adiciona espaço superior */
+    width: 80%; /* Define a largura da seção */
+}
+
+/* Estilos para os títulos dos cursos em destaque */
+#destaque-cursos h2 {
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+}
+
+/* Estilos para cada curso em destaque */
+#destaque-cursos .curso {
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha inferior */
+    padding-bottom: 20px; /* Adiciona espaçamento interno inferior */
+}
+
+/* Estilos para os títulos dos cursos em destaque */
+#destaque-cursos h3 {
+    color: #007bff; /* Define a cor do título */
+}
+
+/* Estilos para os parágrafos dos cursos em destaque */
+#destaque-cursos p {
+    color: #666; /* Define a cor do texto */
+}
+
+/* Estilos para a seção de depoimentos de alunos */
+#depoimentos {
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Define o raio da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    margin-top: 20px; /* Adiciona espaço superior */
+    width: 80%; /* Define a largura da seção */
+}
+
+/* Estilos para os títulos dos depoimentos de alunos */
+#depoimentos h2 {
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+}
+
+/* Estilos para os depoimentos de alunos */
+#depoimentos .depoimento {
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+    padding-bottom: 20px; /* Adiciona espaçamento interno inferior */
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha inferior */
+}
+
+/* Estilos para o texto dos depoimentos de alunos */
+#depoimentos .depoimento p {
+    color: #666; /* Define a cor do texto */
+}
+
+/* Estilos para os nomes dos alunos nos depoimentos */
+#depoimentos .depoimento span {
+    color: #007bff; /* Define a cor do nome */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #696969; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    padding: 20px 0; /* Adiciona espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+#sobre{
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Define o raio da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #696969; /* Define a cor de fundo */
+    padding: 20px 0; /* Adiciona espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem do título */
+    color: #fff; /* Define a cor do título */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Adiciona espaço direito entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Define a cor dos links */
+    text-decoration: none; /* Remove a decoração dos links */
+}
+
+/* Estilos para o corpo do documento */
+body, html {
+    width: 100%; /* Define a largura total */
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove as margens */
+    padding: 0; /* Remove os preenchimentos */
+    color: #333; /* Define a cor do texto */
+    background-color: #fff; /* Define a cor de fundo */
+}
+
+/* Estilos para os títulos de cursos */
+#cursos h2 {
+    color: #333; /* Define a cor do texto */
+}
+
+/* Estilos para a lista de cursos */
+#cursos ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno */
+}
+
+/* Estilos para cada curso */
+#cursos li {
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha inferior */
+    padding-bottom: 20px; /* Adiciona espaçamento interno inferior */
+}
+
+/* Estilos para os títulos de curso */
+#cursos h3 {
+    color: #007bff; /* Define a cor do título */
+}
+
+/* Estilos para os parágrafos de curso */
+#cursos p {
+    color: #666; /* Define a cor do texto */
+}
+
+/* Estilos para a seção de inscrição */
+#inscricao {
+    margin-top: 50px; /* Adiciona espaço superior */
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Define o raio da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+/* Estilos para o formulário de inscrição */
+#inscricao form {
+    display: flex; /* Utiliza o modelo de layout flexível */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+/* Estilos para os rótulos do formulário */
+#inscricao label {
+    margin-bottom: 10px; /* Adiciona espaço inferior */
+    color: #333; /* Define a cor do texto */
+}
+
+/* Estilos para os campos de entrada do formulário */
+#inscricao input, #inscricao select {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin-bottom: 15px; /* Adiciona espaço inferior */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Define o raio da borda */
+}
+
+/* Estilos para o botão de envio do formulário */
+#inscricao button {
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    font-size: 16px; /* Define o tamanho da fonte */
+    background-color: #007bff; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Define o raio da borda */
+    cursor: pointer; /* Altera o cursor ao passar */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+#inscricao button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para a seção de contato */
+#contato {
+    background-color: #f9f9f9; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Define o raio da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+/* Estilos para os rótulos do formulário de contato */
+#contato label {
+    margin-bottom: 10px; /* Adiciona espaço inferior */
+    color: #333; /* Define a cor do texto */
+}
+
+/* Estilos para os campos de entrada do formulário de contato */
+#contato input, #contato textarea {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin-bottom: 15px; /* Adiciona espaço inferior */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Define o raio da borda */
+}
+
+/* Estilos para o botão de envio do formulário de contato */
+#contato button {
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    font-size: 16px; /* Define o tamanho da fonte */
+    background-color: #007bff; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Define o raio da borda */
+    cursor: pointer; /* Altera o cursor ao passar */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+#contato button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse */
+}
